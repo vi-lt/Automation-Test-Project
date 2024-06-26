@@ -2,6 +2,14 @@
 ### Introduction
 This is my frist time that I have investigated and used **MarkDown**. If have any problem with this documentation please ignore.
 
+### Menu of Documentation
+<ol>
+  <li>Installation</li>
+  <li>How to run test case</li>
+  <li>How to run report</li>
+  <li>Referrence Document</li>
+</ol>
+
 # Installation
 ### Step to Install
 
