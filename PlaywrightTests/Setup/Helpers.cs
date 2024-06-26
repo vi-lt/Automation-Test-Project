@@ -10,7 +10,8 @@ namespace PlaywrightTests.Setup
         public static IBrowser? IBrowser { get; set; } = null!;
         public static IPage? IPage { get; set; } = null!;
         public static IBrowserContext? BrowserContext { get; set; } = null!;
-        public static PageObjectModel? PageObjectModel;
+        public static LoginPageObjectModel? LoginPageObjectModel;
+        public static HomePageObjectModel? HomePageObjectModel;
         public static Common? Common;
         public static bool FirstTimeSetUp { get; set; } = true;
     }

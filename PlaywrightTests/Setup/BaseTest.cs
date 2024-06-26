@@ -36,7 +36,8 @@ namespace PlaywrightTests.Setup
         {
             await TestSetup.Setup();
 
-            PageObjectModel = new PageObjectModel(IPage);
+            LoginPageObjectModel = new LoginPageObjectModel(IPage);
+            HomePageObjectModel = new HomePageObjectModel(IPage);
             Common = new Common(IPage);
 
             await Common.Navigate(PageUrl);
