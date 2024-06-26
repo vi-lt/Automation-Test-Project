@@ -6,12 +6,15 @@ namespace BigEcommerceApp.Tests.Models;
 public class LoginPageObjectModel(IPage Page)
 {
     private readonly IPage _page = Page;
-    private ILocator txt_UserName => _page.Locator("//input[@id='user-name']");
-    private ILocator txt_Password => _page.Locator("//input[@id='password']");
-    private ILocator btn_Login => _page.Locator("//input[@id='login-button']");
-    private ILocator msg_ErrorLock => _page.Locator("//h3[@data-test='error']");
+    private string txt_UserNameXPath = "//input[@id='user-name']";
+    private string txt_PasswordXPath = "//input[@id='password']";
+    private string btn_LoginXPath = "//input[@id='login-button']";
+    private string msg_ErrorLockXPath = "//h3[@data-test='error']";
 
-    //private ILocator menu_left(string nameMenu) => _page.Locator("//ul[@class='menu__list']//a[text()='"+ nameMenu + "']");
+    private ILocator txt_UserName => _page.Locator(txt_UserNameXPath);
+    private ILocator txt_Password => _page.Locator(txt_PasswordXPath);
+    private ILocator btn_Login => _page.Locator(btn_LoginXPath);
+    private ILocator msg_ErrorLock => _page.Locator(msg_ErrorLockXPath);
 
     # region Action
     [AllureStep]
