@@ -1,12 +1,13 @@
 # Documentation
 ### Introduction
-This is my frist time that I have investigated and used **MarkDown**. If have any problem with this documentation please ignore.
+This is my frist time that I have investigated and used **MarkDown**. If have any problem with this documentation please contact to me.
 
 ### Menu of Documentation
 <ol>
   <li>Installation</li>
   <li>How to run test case</li>
   <li>How to run report</li>
+  <li>Interpret the test results</li>
   <li>Referrence Document</li>
 </ol>
 
@@ -60,5 +61,33 @@ npx allure-commandline serve
 
 ![alt text](image.png)
 
+# Interpret the test results
+### As requirement of the test exam:
+> The tests should include positive andnegative scenarios
+
+So I create 2 test suits with **Login** page and **Home** page
+
+- **Login** has 4 passed and 1 failed test cases
+- **Home** has 2 passed test cases
+
+
+![alt text](image-3.png)
+
+---
+### So let's go ahead with report.
+
+The report will show that how many test cases **passed**, **failed** and show the percent.
+
+![alt text](image-4.png)
+
+Click **Show all** to go to the detail of report so that you can go over your test cases
+
+![alt text](image-5.png)
+
+In the details page, you can see how many time that need to run for a test case
+
+The report will show  the step that was marked and the reason why that step failed
+
+![alt text](image-6.png)
 # Referrence Document
 Install playwright - https://playwright.dev/dotnet/docs/intro
