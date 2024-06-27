@@ -38,11 +38,11 @@ After install, you need click on **Build Solution**
 
 And then, open your test explorer `(View -> Test Explorer)`
 
-- ![alt text](image-2.png)
+- ![alt text](image/image-2.png)
 
 Then you can choose to click run all your test cases or just one test cases
 
-- ![alt text](image-1.png)
+- ![alt text](image/image-1.png)
 
 # How to run report
 Please **make sure** your computer that have **installed NodeJS and Java**.
@@ -59,7 +59,7 @@ After that, run this command to open the report
 npx allure-commandline serve
 ```
 
-![alt text](image.png)
+![alt text](image/image.png)
 
 # Interpret the test results
 ### As requirement of the test exam:
@@ -71,23 +71,23 @@ So I create 2 test suits with **Login** page and **Home** page
 - **Home** has 2 passed test cases
 
 
-![alt text](image-3.png)
+![alt text](image/image-3.png)
 
 ---
 ### So let's go ahead with report.
 
 The report will show that how many test cases **passed**, **failed** and show the percent.
 
-![alt text](image-4.png)
+![alt text](image/image-4.png)
 
 Click **Show all** to go to the detail of report so that you can go over your test cases
 
-![alt text](image-5.png)
+![alt text](image/image-5.png)
 
 In the details page, you can see how many time that need to run for a test case
 
 The report will show  the step that was marked and the reason why that step failed
 
-![alt text](image-6.png)
+![alt text](image/image-6.png)
 # Referrence Document
 Install playwright - https://playwright.dev/dotnet/docs/intro
